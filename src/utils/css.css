@@ -1,0 +1,34 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: '-apple-system', 'BlinkMacSystemFont', 'PingFang SC',
+    'Helvetica Neue', 'STHeiti', 'Microsoft Yahei', 'Tahoma', 'Simsun',
+    'sans-serif';
+    background: none;
+}
+textarea {
+  font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB',
+    'Microsoft YaHei', '微软雅黑', 'Arial', 'sans-serif';
+}
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: rgba(0,0,0,0.1);
+}
+::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: rgba(0,0,0,0.1);
+}
+.el-message-box__wrapper{
+  top: calc((100vh - 136px) / 2);
+}
